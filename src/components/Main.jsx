@@ -1,6 +1,8 @@
 import React from 'react';
 import Info from './Info';
 import Counter from './Counter';
+import Lifecycle from './Lifecycle';
+
 
 class Main extends React.Component {
 
@@ -10,6 +12,7 @@ class Main extends React.Component {
             <h2> Main component </h2>
             <Info remind="kopa kakor" />
             <Counter />
+            <Lifecycle />
         </main>
         )
 
