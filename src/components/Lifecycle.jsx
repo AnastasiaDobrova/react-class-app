@@ -10,15 +10,15 @@ class Lifecycle extends React.Component {
 	}
 
 	componentDidMount() {
-		
+		console.log('componentDidMount')
 	}
 
 	componentDidUpdate(didProps, prevState) {
-
+		console.log('componentDidUpdate', didProps, prevState)
 	}
 
 	componentWillUnmount() {
-
+		console.log('componentWillUnmount')
 	}
 
 	render() {
